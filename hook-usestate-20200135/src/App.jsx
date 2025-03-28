@@ -1,6 +1,5 @@
-// App.jsx
-import { useState } from 'react';
-import './App.css';
+import { useState } from 'react'
+import './App.css'
 
 function App() {
   const [nombre, setNombre] = useState('');
@@ -54,6 +53,6 @@ function App() {
         </div>
       </div>
     </>
-  );
+  )
 }
-export default App;
+export default App
